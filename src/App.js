@@ -1,18 +1,20 @@
 import './App.css';
 import Counter from './components/counter/counter';
 import Header from './containers/header/header';
+import TodoUX from './containers/todo-ux/todo-ux';
 
 
 function App() {
   return (
     <>
-      <Header />
+      <Header content='Demo React' />
       <main className="App">
-        
+        {/* 
         <p>Demo du "state" &gt; Etat local</p>
         <Counter />
+        */}
         
-        <p>Liste de taches...</p>
+        <TodoUX />
 
       </main>
     </>

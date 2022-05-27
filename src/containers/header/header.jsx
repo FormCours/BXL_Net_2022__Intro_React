@@ -1,10 +1,11 @@
 import logo from './logo.png';
 import style from './header.module.css';
 
-const Header = () => {
+const Header = (props) => {
+    // Récuperation des données des attributs
+    const content = props.content;
 
-    const content = 'Demo • Liste de tache';
-
+    // Rendu d'un header
     return (
         <header className={style.header}>
             <img src={logo} alt='Site Logo' />
