@@ -1,4 +1,5 @@
 import './App.css';
+import Counter from './components/counter/counter';
 import Header from './containers/header/header';
 
 
@@ -7,8 +8,12 @@ function App() {
     <>
       <Header />
       <main className="App">
-        Liste de taches...
         
+        <p>Demo du "state" &gt; Etat local</p>
+        <Counter />
+        
+        <p>Liste de taches...</p>
+
       </main>
     </>
   );
